@@ -41,6 +41,18 @@ body {
   margin: 0;
   padding: 0;
 }
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(219, 219, 219, 0.295);
+}
 .md-editor {
   display: flex;
   width: 100%;
