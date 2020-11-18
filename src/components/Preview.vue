@@ -14,10 +14,13 @@ export default {
 .preview {
   width: 100%;
   height: 100%;
-  overflow-y: scroll;
+  overflow-y: hidden;
   background-color: #1b2f42;
   color: white;
   padding: 20px;
   box-sizing: border-box;
+}
+.preview:hover {
+  overflow-y: scroll;
 }
 </style>
