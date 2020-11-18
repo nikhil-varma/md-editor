@@ -62,4 +62,44 @@ body {
   flex-direction: row;
   position: relative;
 }
+pre {
+  background: #43709a9c;
+  padding: 8px 8px;
+  border-radius: 4px;
+}
+code {
+  background: #43709a9c;
+  padding: 0px 8px;
+  border-radius: 4px;
+}
+pre > code {
+  background-color: transparent;
+}
+a {
+  color: #27c2ff;
+}
+blockquote {
+  border-left: 10px solid rgb(234, 234, 234, 0.58);
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+table {
+  border: 1px solid rgb(234, 234, 234, 0.35);
+}
+thead {
+  background: rgb(95, 95, 95, 0.38);
+  height: 40px;
+  text-align: left;
+  border-right: 1px solid #eaeaea;
+}
+tr {
+  height: 30px;
+  line-height: 30px;
+}
+th,
+td {
+  padding: 0 20px;
+}
 </style>
