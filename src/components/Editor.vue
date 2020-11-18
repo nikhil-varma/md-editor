@@ -40,7 +40,7 @@ export default {
   flex-direction: row;
 }
 .editor .editor-input {
-  width: 100%;
+  width: calc(100% - 60px);
   height: 100%;
   padding: 20px;
   box-sizing: border-box;
