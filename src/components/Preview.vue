@@ -6,7 +6,7 @@
 export default {
   name: 'Preview',
   props: {
-    renderedContent: HTMLAllCollection,
+    renderedContent: String,
   },
 };
 </script>
