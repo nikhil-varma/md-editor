@@ -69,7 +69,7 @@ pre {
 }
 code {
   background: #43709a9c;
-  padding: 0px 8px;
+  padding: 3px 4px;
   border-radius: 4px;
 }
 pre > code {
@@ -82,14 +82,16 @@ blockquote {
   border-left: 10px solid rgb(234, 234, 234, 0.58);
   margin-left: 10px;
   padding-left: 10px;
-  padding-top: 2px;
+  padding-top: 1px;
   padding-bottom: 2px;
+  border-radius: 3px;
+  background-color: #345678;
 }
 table {
   border: 1px solid rgb(234, 234, 234, 0.35);
 }
 thead {
-  background: rgb(95, 95, 95, 0.38);
+  background: #345678;
   height: 40px;
   text-align: left;
   border-right: 1px solid #eaeaea;
