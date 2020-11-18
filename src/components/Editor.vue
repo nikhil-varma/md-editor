@@ -2,6 +2,7 @@
   <div class="editor">
     <Toolbox :togglePreviewMode="togglePreviewMode" />
     <textarea
+      placeholder="Start writing here"
       class="editor-input"
       v-model="editorInput"
       @input="handleInputChange"
