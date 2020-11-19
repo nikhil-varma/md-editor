@@ -1,6 +1,6 @@
 # Known issues
 
-- Pasting might sometimes not work due to how the text is ingested. This will get fixed in the upcoming version
+- Pasting might sometimes not work due to how the text is ingested. it's occurance is low and with huge textual dataset 
 
 
 # Demo Preview:
