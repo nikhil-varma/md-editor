@@ -6,6 +6,7 @@
       class="editor-input"
       v-model="editorInput"
       @input="handleInputChange"
+      v-on:keydown="handleKeyboardEvent"
     ></textarea>
   </div>
 </template>
@@ -28,6 +29,14 @@ export default {
   methods: {
     handleInputChange: function() {
       this.handleEditorInputChange(this.editorInput);
+    },
+    handleKeyboardEvent: function(event) {
+      const {key, keyCode} = event;
+      if (keyCode === 9) {
+        event.preventDefault();
+        this.editorInput += '  ';
+        console.log(key, event.keyCode);
+      }
     },
   },
 };
