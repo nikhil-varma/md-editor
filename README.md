@@ -1,6 +1,6 @@
 # Known issues
 
-- Pasting might not work due to how the text is ingested. This will get fixed in the upcoming version
+- Pasting might sometimes not work due to how the text is ingested. This will get fixed in the upcoming version
 
 
 # Demo Preview:
